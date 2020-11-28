@@ -1,0 +1,45 @@
+What is a web element?
+
+WEB element-anything presented on the web page;
+e.g. buttons, taxtboxes,checkboxes;
+
+HTML?
+HyperText Markup Language
+
+What is DOM?
+Dom stands for Document Object Model.
+It is a browser's internal view of the web page;(DEVELOPERS TOOLS
+ -another way of calling DOM).
+ Document -- because in html you can store any document (pdf,excel,word).
+ Object -- any line inside html is called an object.
+ Model  -- layout of the HTML file.
+
+Locator is an address for a position of a web element in the webpage.
+Is used to locate or identify a specific element on the web page.
+
+There are 8 locators in SELENIUM:
+--id
+--name
+--class name
+--linkText
+--partialLinkText
+--xpath
+--cssSelector
+--tagName
+
+HTML scripting meaning:
+- purple - <tags>
+- brown - attributes
+- blue - attribute values(after the = and in "")
+
+
+Why do we need many locators?
+-- developers may not provide all the locators for elements
+-- some locators might have duplicate values in the other notes
+-- some locators may not be applicable to all the elements
+
+e g. LinkText and PartialLinkText are only used for links;
+
+
+"a" tag in HTML is  called an anchor tag.
+

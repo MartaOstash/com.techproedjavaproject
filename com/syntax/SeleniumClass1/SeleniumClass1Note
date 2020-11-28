@@ -1,0 +1,76 @@
+Selenium class 1
+
+What's is SW testing?
+---identify correctness and quality of the application;
+
+How many ways we can test the app?
+--- 2 ways - manual and automation;
+
+
+When do we go for automation?
+---after manual testing passes;
+---when environment is stable;
+---when we analyse our test suite and choose our automation tools
+(u analyze your project and chooze the tool to check the program);
+
+What other tools do we have for automation?
+---Selenium;
+---Cucumber;
+---TestNG;
+---UFT/QTP(Unified functional testing);
+---Katalon Studio;
+
+Levels of testing?
+---Unit testing;
+---System testing;
+---Integration test;
+---Acceptance test;
+
+Types of SW testing?
+---Functional testing tests user interface/front end;
+---Non functional testing:
+       - performance testing  -how fast app works;
+       - security testing-check if anyone can hack it;
+
+What is SELENIUM?
+--Selenium is a set of tools which helps us to automate web apps.
+It is mainly used for functional testing(except mobile and desktop appa);
+
+SELENIUM components:
+1.Selenium RC --> remote control;
+2.Selenium IDE or integrated development environment;
+3.Selenium WebDriver;
+4.Selenium Grid;
+
+What is Selenium WebDriver?
+Open source automation tool which allows you to perform actions on a web apps.
+Web Driver is an Interface.
+
+Advantages of Selenium Web Driver:
+--open source(free);
+--works with most of browsers and supports cross browser testing;
+--works with multiple programming languages-->Java, Ruby, Python, C#, JS;
+--OS independent(iOS, Linux,Windows);
+
+Disadvantages of Selenium:
+--we cannot test Desktop apps;
+--no built-in reporting;
+--no technical support from anybody
+--cannot test captchas, images;
+--takes more time to create test cases;
+
+Why are we writing WebDriver = new ChromeDriver?
+cant we just write ChromeDriver = new ChromeDriver??
+If we write ChromeDriver it's going to work, but if we would like to change
+the driver to Firefox, so chrome driver don't have it, but web driver doooes!
+WEb driver is a PARENT;
+
+get() VS navigate();
+--get()-waits till page will be fully loaded whereas navigate() will not;
+--get() will not keep the history in your browser, navigate() will;
+--navigate() will move back and forward, refresh;
+
+close() VS quit()
+--close()-closes the current tab;
+--quit()-quits whe whole browser no matter how many tabs are open;
+
